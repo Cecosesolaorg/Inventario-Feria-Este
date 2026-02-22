@@ -319,11 +319,14 @@
 /* Reference Image Style Calculator */
 .image-style-modal {
     background: #ffffff;
-    width: 380px;
+    width: 95%;
+    max-width: 400px;
     border-radius: 2rem;
-    padding: 2rem;
+    padding: 1.5rem;
     box-shadow: 0 50px 100px rgba(0, 0, 0, 0.2);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-height: 90vh;
+    overflow-y: auto;
 }
 
 .image-style-header {
@@ -584,6 +587,31 @@
 
     .aisle-title {
         font-size: 1.5rem;
+    }
+
+    /* Calculator Scaling */
+    .image-style-modal {
+        padding: 1rem;
+        border-radius: 1.5rem;
+    }
+
+    .image-style-header h3 {
+        font-size: 1.4rem;
+    }
+
+    .display-val {
+        font-size: 2rem;
+    }
+
+    .num-btn,
+    .op-btn {
+        padding: 0.8rem;
+        font-size: 1.2rem;
+    }
+
+    .btn-sumar-directo {
+        padding: 1rem;
+        font-size: 1.1rem;
     }
 
     .inventory-table-container {
